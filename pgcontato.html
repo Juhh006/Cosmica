@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pgcontato.css">
+    <link rel="icon" href="imagens/LOGO-icone-VERDE.png" type="image/x-icon">
+    <title>Contato</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
+</head>
+
+<body>
+
+    <nav class="cabeçalho">
+        <img id="logocosmica" src="imagens/LOGO-BRANCO.png">
+    </nav>
+    <header class="mini-borda-1">
+        <ul class="inicio">
+            <li><img src="imagens/LOGO-BRANCO.png" ></li>
+            <li><a class="n" href="index.html">HOME</a></li>
+            <li><a class="n" href="pgafeto.html">AFETO</a></li>
+            <li><a class="n" href="pgimpacto.html">IMPACTO</a></li>
+            <li><a class="n" href="produtos.html">PRODUTOS</a></li>
+            <li><a class="n" href="pgcontato.html">CONTATOS</a></li>
+        </ul>
+    </header>
+    <main>
+
+        <div class="conteiner">
+            <section class="texto">
+                <div class="t1">
+                    <h1>FAÇA PARTE<br> DA<br> MUDANÇA!</h1><br>
+                </div>
+                <div class="t2">
+                    <p>Quer solicitar um<br> orçamento e saber<br> mais do nosso<br> trabalho?</p><br>
+                </div>
+                <div class="t3">
+                    <p>Preencha o<br> formulário!</p>
+                </div>
+            </section>
+
+            <section id="formu">
+
+                <form class="formulario">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required>
+                    <label for="email">E-mail</label>
+                    <input type="text" id="email" name="email" required>
+                    <label for="whatsapp">WhatsApp</label>
+                    <input type="tel" id="whatsapp" name="whatsapp" pattern="\+?[0-9\s\-\(\)]{8,15}"
+                        placeholder="(XX) XXXXX-XXXX" required>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                    <div class="botao">
+                        <button class="enviar" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+
+            <div class="redes-sociais">
+                <ul>
+                    <li>
+                        <p>Inicio</p>
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="produtos.html">Produtos</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html">Sobre nós</a>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p>Sobre nós</p>
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="produtos.html">Produtos</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html">Sobre nós</a>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <p>Suporte</p>
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="produtos.html">Produtos</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html">Sobre nós</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <header class="borda-final">
+        <div class="itens-final">
+            <ul>
+                <li><img class="logo-final" src="imagens/LOGO-BRANCO.png"></li>
+            </ul>
+
+            <ul>
+                <li class="insta"><a href="https://www.instagram.com/cosmicacria/" target="_blank"><img src="imagens/instagram.png"></a></li>
+                    <li class="whats"><a href="https://api.whatsapp.com/send/?phone=5547997873644&text&type=phone_number&app_absent=0" target="_blank"><img src="imagens/whatsapp.png"></a></li>
+                    <li class="tiktok"><a href="https://www.tiktok.com/@cosmicacria" target="_blank"><img src="imagens/tiktok.png"></a></li>
+            </ul>
+        </div>
+    </header>
+    <script src="navs.js"></script>
+</body>
+</html>

@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+    font-family: "Alumni Sans", sans-serif;
+    font-size: x-large;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(255, 251, 251);
+}
+
+#logocosmica {
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+}
+
+.mini-borda-1 {
+    text-align: center;
+    background-color: #61806b;
+    color: rgb(255, 255, 255);
+    height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: none;
+}
+
+.mini-borda-1 li {
+    margin-top: 10px;
+}
+
+.inicio {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0.1rem 0 0;
+}
+
+.inicio li {
+    padding: 0 20px;
+}
+
+.inicio li img {
+    width: 100px;
+}
+
+.inicio li a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    font-size: 25px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.inicio li a:hover {
+    background-color: #4c6e59;
+}
+.cabeçalho {
+    background: #f4f4f4;
+    padding: 2.7rem;
+    background-color: #61806b;
+    text-align: center;
+    padding: 7%;
+}
+
+nav {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+section {
+    margin: 100px;
+    font-style: italic;
+}
+
+section h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.mudanca-mundo {
+    margin-bottom: 15px;
+}
+
+.mochila-atitude {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* aqui eu to alinhando todos à esquerda */
+    margin-left: 190px;
+}
+
+.texto-atitude {
+    text-align: left;
+    flex: 1;
+    width: 90%;
+}
+
+.mochila-mudanca {
+    flex: 0 0 auto;
+}
+
+.mochila-mudanca img {
+
+    width: 400px;
+}
+
+.texto-atitude h1 {
+    margin-bottom: 10px;
+}
+
+.texto-atitude p {
+    line-height: 1.5;
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(40px);
+        /* aqui ta fazendo o movimento da imagem */
+    }
+
+    100% {
+        transform: translateY(40);
+    }
+
+}
+
+.mochila-mudanca img {
+    width: 400px;
+    animation: moveUpDown 2s ease-in-out infinite;
+}
+
+.fazemos-juntos {
+    background-image: url('imagens/calca_jeans.jpg');
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.mudanca {
+    color: #f4f4f4;
+    margin-right: 290px;
+}
+
+.texto-mudanca {
+    color: #f4f4f4;
+    max-width: 600px;
+}
+
+footer {
+    background-color: #61806b;
+    padding: 20px;
+
+}
+
+footer p,
+li,
+h5 {
+    color: #f4f4f4;
+}
+
+footer a {
+    text-decoration: none;
+    color: #f4f4f4;
+    transition: background-color 0.3s ease, color 0.2s ease;
+}
+
+footer a:hover {
+    background-color: rgba(59, 59, 59, 0.7);
+}
+
+.footer-content {
+
+    display: flex;
+    flex-direction: column;
+}
+.borda-final {
+    padding: 10px;
+    background-color: #738d7b;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.redes-sociais p {
+    font-weight: bold;
+}
+
+header.borda-final {
+    padding: 10px;
+    background-color: #738d7b;
+}
+
+.itens-final {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itens-final ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.itens-final img {
+    max-width: 230px;
+    max-height: 30px;
+    margin: 0 10px;
+}
+
+.logo-final {
+    width: 90%;
+}
+
+.insta,
+.whats {
+    display: inline-block;
+}
+
+@media (max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-size: large;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .inicio li{
+        margin: 0;
+    }
+
+    .inicio{
+        flex-direction: column;
+    }
+
+    .item{
+        flex-direction: column;
+    }
+
+    .mochila-atitude{
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .fazemos-juntos{
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .mudanca{
+        margin: 0;
+    }
+
+    .texto-mudanca{
+        width: 90%;
+    }
+}
