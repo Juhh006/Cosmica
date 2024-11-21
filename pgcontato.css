@@ -106,7 +106,6 @@ nav {
     width: 300px;
   }
   
-  /* Estilo para os labels */
   .formulario label {
     display: block;
     margin-bottom: 8px;
@@ -114,7 +113,6 @@ nav {
     color: #333;
   }
   
-  /* Estilo para os campos de entrada */
   .formulario input,
   .formulario textarea {
     width: 100%;
@@ -125,13 +123,11 @@ nav {
     font-size: 14px;
   }
   
-  /* Placeholder estilizado */
   .formulario input::placeholder,
   .formulario textarea::placeholder {
     color: #aaa;
   }
   
-  /* Botão de envio */
   .formulario button {
     width: 100%;
     padding: 10px;
@@ -144,18 +140,33 @@ nav {
     transition: background-color 0.3s ease;
   }
   
-  /* Efeito de hover no botão */
   .formulario button:hover {
     background-color: #0e2c17;
   }
   
-  /* Responsividade */
   @media (max-width: 400px) {
     .formulario {
       width: 100%;
       padding: 15px;
     }
   }
+
+.success-message {
+    display: none; 
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    background-color: #a0b491;
+    color: #000000;
+    border: 1px solid #373937;
+    border-radius: 4px;
+    padding: 25px;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000; 
+    text-align: center;
+}
 
 .texto {
     font-family: Arial, sans-serif;

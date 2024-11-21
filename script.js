@@ -3,35 +3,35 @@ let detalhesVisiveis = false;
 function mostrarDetalhes(produtoId) {
     const produtos = {
         1: {
-            img: "./fotos-cosmica/1.png",
+            img: "./fotos-cosmica/mochilamudita.jpeg",
             titulo: "MOCHILA MUDITA",
             descricao: "Ao escolher nossas criações, você não está apenas, adquirindo moda, você está fazendo parte de um movimento que valoriza o meio ambiente e transforma desperdício em beleza.",
             subtitulo: "INFORMAÇÕES ADICIONAIS:",
             detalhes: ["Couro", "Camursa", "Feito com roupas"]
         },
         2: {
-            img: "./fotos-cosmica/2.png",
+            img: "./fotos-cosmica/mochilaupeksha.jpeg",
             titulo: "MOCHILA UPEKSHA",
             descricao: "Ao escolher nossas criações, você não está apenas, adquirindo moda, você está fazendo parte de um movimento que valoriza o meio ambiente e transforma desperdício em beleza.",
             subtitulo: "INFORMAÇÕES ADICIONAIS:",
             detalhes: ["tecido", "Preto", "Bicolor"]
         },
         3: {
-            img: "./fotos-cosmica/3.png",
+            img: "./fotos-cosmica/basicbag.jpeg",
             titulo: "BASIC BAG",
             descricao: "Ao escolher nossas criações, você não está apenas, adquirindo moda, você está fazendo parte de um movimento que valoriza o meio ambiente e transforma desperdício em beleza.",
             subtitulo: "INFORMAÇÕES ADICIONAIS:",
             detalhes: ["Alguma coisa", "alguma coisa", "Outra coisa"]
         },
         4: {
-            img: "./fotos-cosmica/4.png",
+            img: "./fotos-cosmica/18.png",
             titulo: "BOLSA TRANSVERSAL",
             descricao: "Ao escolher nossas criações, você não está apenas, adquirindo moda, você está fazendo parte de um movimento que valoriza o meio ambiente e transforma desperdício em beleza.",
             subtitulo: "INFORMAÇÕES ADICIONAIS:",
             detalhes: ["coisa um", "Coisa dois", "Coisa tres"]
         },
         5: {
-            img: "./fotos-cosmica/5.png",
+            img: "./fotos-cosmica/basicbagpreta.jpeg",
             titulo: "BASIC BAG PRETA",
             descricao: "Ao escolher nossas criações, você não está apenas, adquirindo moda, você está fazendo parte de um movimento que valoriza o meio ambiente e transforma desperdício em beleza.",
             subtitulo: "INFORMAÇÕES ADICIONAIS:",

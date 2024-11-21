@@ -394,7 +394,11 @@ body {
 
 .imagens-nosso-trabalho {
     display: flex;
-    flex-wrap: wrap;
+     flex-wrap: wrap; 
+     gap: 10px; 
+     padding: 20px;
+     width: 80%; 
+     box-sizing: border-box;
 }
 
 .imagem-trabalho1,
